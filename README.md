@@ -44,6 +44,6 @@ En el ejercicio hay 3 tipos de ficheros y carpetas:
 - La 🗂️ carpeta `src/`: son los ficheros con lo que he estado trabajando (HTML, SCSS y las imágenes)
 - La 📂 carpeta `docs/`, que es generada usando GULP. En ella se encuentra la versión de producción, que es la que voy a mostrar al mundo 🌍.
 
-Espero que te haya gustado mi trabajo, si quieres saber un poco más o tienes cualquier consejo para mejorar mi código no dudes en ponerte en contacto conmigo. [LinkeIn]: https://www.linkedin.com/in/bea-figueroa/
+Espero que te haya gustado mi trabajo, si quieres saber un poco más o tienes cualquier consejo para mejorar mi código no dudes en ponerte en contacto conmigo. [LinkeIn](https://www.linkedin.com/in/bea-figueroa/)
 
 Gracias por visitarme.
