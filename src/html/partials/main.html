@@ -1,0 +1,74 @@
+<main id="main">
+  <section class="hero">
+    <img
+      class="hero__img"
+      src="./assets/images/cover-reduced.jpg"
+      alt="Persona atándose una de sus zapatillas"
+      title="Corredor atándose una de sus zapatillas"
+    />
+    <div class="hero__container">
+      <h1 class="hero__title">HASTA UN 50% DE DESCUENTO</h1>
+      <p class="hero__text">Ya están aquí las ofertas de fin de temporada</p>
+      <div class="hero__container--button">
+        <a href="#section2">
+          <img
+            src="./assets/images/ico-scroll-down.svg"
+            alt="Botón con flecha hacia abajo"
+            title="Botón de scroll hacia abajo"
+          />
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="section1">
+    <p class="section1__text--small">Los sentimientos nos inspiran</p>
+    <h2 class="section1__title">Conecta Contigo</h2>
+    <p class="section1__text">
+      Esto es una celebración de todo lo que nos mueve. Del poder de elegir y de
+      la libertad de ser. Rendimos homenaje al hermoso caos del movimiento y a
+      la plena consciencia que tan bien nos hacen sentir.
+    </p>
+    <!-- <a class="section1__link" href="https://adalab.es/" target="_blank"> -->
+    <include
+      src="./button.html"
+      class="section1__button"
+      text="Comprar"
+    ></include>
+    <!-- </a> -->
+  </section>
+  <section class="section2" id="section2">
+    <h2 class="section2__title">Año nuevo, movimientos nuevos</h2>
+    <div class="section2__container">
+      <include
+        src="./article.html"
+        title="Entrenamientos"
+        description="Sesiones de running y entrenamientos."
+      ></include>
+      <include
+        src="./article.html"
+        title="Cualquier nivel"
+        description="Entrenamientos para cada nivel."
+      ></include>
+      <include
+        src="./article.html"
+        title="Exclusividad"
+        description="Productos para miembros premium."
+      ></include>
+    </div>
+    <include
+      src="./button.html"
+      class="section2__button"
+      text="Empezar ahora"
+    ></include>
+    <div class="section2__container--button">
+      <a href="#main" class="section2__link">
+        <img
+          src="./assets/images/ico-arrow.svg"
+          alt="Botón con flecha hacia arriba"
+          class="section2__arrow"
+          title="Botón de scroll hacia arriba"
+        />
+      </a>
+    </div>
+  </section>
+</main>

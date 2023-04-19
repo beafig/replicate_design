@@ -1,0 +1,48 @@
+.footer {
+  background-color: $color-background2;
+  text-align: center;
+  padding: 65px 0 36px 0;
+  @media all and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px 150px 34px 150px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 50px 370px 40px;
+  }
+  &__nav {
+    color: $color-text1;
+    font: $robotoRegular_16;
+    line-height: 30px;
+  }
+  &__nav2 {
+    color: $color-text1;
+    font: $robotoRegular_16;
+    line-height: 30px;
+  }
+  &__link {
+    color: $color-text1;
+  }
+  &__container {
+    @media all and (min-width: 768px) {
+      order: -1;
+    }
+  }
+  &__copy {
+    font: $robotoRegular_14;
+    color: $color-text1;
+    line-height: 30px;
+    margin-top: 32px;
+    @media all and (min-width: 768px) {
+      margin: 0;
+    }
+  }
+  &__text {
+    color: $color-text1;
+    font: $robotoRegular_14;
+    line-height: 30px;
+  }
+}
+.fa-solid {
+  color: $color-main;
+}

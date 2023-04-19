@@ -1,0 +1,100 @@
+.section2 {
+  background-color: $color-background1;
+  text-align: center;
+  padding: 29px 0 5px 0;
+  @media all and (min-width: 768px) {
+    padding: 49px 0 11px 0;
+  }
+  @media all and (min-width: 1024px) {
+    padding-bottom: 21px;
+  }
+  &__title {
+    font: $robotoSlab_20;
+    line-height: 30px;
+    margin: 0 50px;
+    @media all and (min-width: 768px) {
+      font: $robotoSlab_28;
+      line-height: 45px;
+    }
+    @media all and (min-width: 1024px) {
+      font: $robotoSlab_32;
+      line-height: 45px;
+    }
+    &--article {
+      font: $robotoSlab_18;
+      line-height: 30px;
+      @media all and (min-width: 768px) {
+        font: $robotoSlab_24;
+        line-height: 30px;
+      }
+    }
+  }
+  &__article {
+    padding: 45px 70px 0 66px;
+    @media all and (min-width: 768px) {
+      padding: 38px 0 0 0;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 51px 0 0 0;
+    }
+  }
+  &__container {
+    @media all and (min-width: 768px) {
+      padding: 0 29px 0 47px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 0 60px 0 50px;
+    }
+    &--button {
+      background-color: $color-text1;
+      width: 45px;
+      height: 45px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      position: relative;
+      top: 25px;
+      @media all and (min-width: 768px) {
+        top: 32px;
+      }
+      @media all and (min-width: 1024px) {
+        top: 45px;
+      }
+    }
+  }
+  &__text {
+    font: $robotoRegular_18;
+    line-height: 30px;
+    @media all and (min-width: 768px) {
+      font: $robotoRegular_20;
+      padding-top: 18px;
+      line-height: 30px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 26px;
+    }
+  }
+  &__button {
+    width: 184px;
+    height: 45px;
+    color: $color-text1;
+    font: $robotoMedium_20;
+    line-height: 45px;
+    background-color: $color-main;
+    border: none;
+    border-radius: 22.5px;
+    margin-top: 30px;
+    cursor: pointer;
+    @media all and (min-width: 768px) {
+      margin-top: 38px;
+    }
+    @media all and (min-width: 1024px) {
+      margin-top: 48px;
+    }
+  }
+}
