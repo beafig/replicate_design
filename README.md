@@ -1,4 +1,4 @@
-# Ejercicio de evaluación final modulo 1
+# Ejercicio de evaluación final modulo 1 (HTML, CSS, SASS)
 
 ¡Hola 👋🏽! Este es mi ejercicio para superar el primer modulo del bootcamp de programación en Adalab.
 
