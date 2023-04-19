@@ -1,4 +1,4 @@
-# Ejercicio de evaluación final modulo 1 de Bea Figueroa
+# Ejercicio de evaluación final modulo 1
 
 ¡Hola 👋🏽! Este es mi ejercicio para superar el primer modulo del bootcamp de programación en Adalab.
 
